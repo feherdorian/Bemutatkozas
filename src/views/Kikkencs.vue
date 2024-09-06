@@ -1,12 +1,13 @@
+<script setup>
+  import BemutatkozoKartya from '../components/BemutatkozoKartya.vue'
+</script>
+
 <template>
-  <h1>Kiki</h1>
+  <div>
+    <BemutatkozoKartya nev="Krisztián" kep="krisztian" bemutatkozas="asd"/>
+  </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
 
 <style>
 
