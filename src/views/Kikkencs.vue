@@ -1,5 +1,5 @@
 <template>
-  
+  <h1>Kiki</h1>
 </template>
 
 <script>

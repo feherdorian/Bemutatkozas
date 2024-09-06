@@ -1,5 +1,5 @@
 <template>
-  <h1>János</h1>
+  <h1>Ezen az oldalon nincsen adat.</h1>
 </template>
 
 <script>
