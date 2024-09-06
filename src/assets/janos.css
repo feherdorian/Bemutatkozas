@@ -1,0 +1,6 @@
+.my-borderjani{
+    border: 10px double seagreen;
+}
+.doboz{
+    box-sizing: border-box;
+}
