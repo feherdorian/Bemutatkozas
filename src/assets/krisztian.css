@@ -1,0 +1,36 @@
+.my-font-style{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home-button{
+    font-size: xx-large;
+}
+
+.emberek-button{
+    cursor: pointer;
+    min-width: 100%;
+    /* hogy kell megcsinálni hogy felvegye a 100%-ot naheize */
+}
+
+.my-element {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.my-element:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.my-navbar{
+    background-color: #adb5bd !important;
+}  
+
+body{
+    background-color: #ced4da;
+}
+
+.list-element{
+    background-color: #ced4da !important;
+}

@@ -4,6 +4,8 @@
 
 <template>
   <main>
-    ez egy home
+    <h1>
+      ez egy home
+    </h1>
   </main>
 </template>
