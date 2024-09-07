@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <BemutatkozoKartya nev="Krisztián" kep="krisztian" bemutatkozas="asd"/>
+    <BemutatkozoKartya nev="Molnár Krisztián" kep="krisztian" bemutatkozas="Sok mindent szeretek, es sok mident nem GGWP tyfortutorial"/>
   </div>
 </template>
 
