@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .my-font-style{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .home-button{
@@ -9,28 +12,38 @@
 .emberek-button{
     cursor: pointer;
     min-width: 100%;
-    /* hogy kell megcsinálni hogy felvegye a 100%-ot naheize */
 }
 
 .my-element {
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
     background-color: #ffffff;
     padding: 10px;
 }
 
+.clicked {
+    background-color: #ced4da;
+}
+
 .my-element:hover {
-    background-color: #e0e0e0;
+    background-color: #ced4da;
     transition: background-color 0.3s ease-in-out;
 
 }
 
 .my-navbar{
-    background-color: #adb5bd !important;
-}  
+    background-color: #ced4da !important;
+}
 
 body{
-    background-color: #ced4da;
+    background-color: #e6e6e6;
 }
 
 .list-element{
-    background-color: #ced4da !important;
+    background-color: #ffffff88 !important;
+}
+
+.my-offcanvas-header{
+    background-color: #ced4da;
+
 }
