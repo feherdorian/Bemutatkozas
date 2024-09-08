@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+.home-felirat{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #B0886F;
+}
+
 .my-name{
     color: inherit;
     text-decoration: none;
@@ -22,6 +29,7 @@
 
 .clicked {
     background-color: #ced4da;
+    color: #B0886F;
     
 }
 
@@ -55,9 +63,9 @@ body{
     font-weight: bold;
 }
 
-.home-felirat-div{
-    margin-top: 10px;
-    margin-left: 20px;
+.name-felirat-div{
+    margin-top: 100px;
+    margin-left: 100px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -71,6 +79,7 @@ body{
     padding: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3 ease, box-shadow 0.3 ease;
+    margin-top: 20px;
 }
 
 .my-image:hover{
