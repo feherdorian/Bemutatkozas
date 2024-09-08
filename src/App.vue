@@ -56,27 +56,27 @@ const handleClick = (element) => {
             'container-fluid d-flex justify-content-center align-items-center p-5 my-element': true,
             'clicked': selectedElement === 'home'
           }" style="min-width:100%; min-height: 25%; cursor: pointer;" @click="handleClick('home')">
-            <p class="my-font-style home-button">HOME</p>
+            <p class="home-button">HOME</p>
           </div>
           <div :class="{
             'container-fluid d-flex justify-content-center align-items-center p-5 my-element': true,
             'clicked': selectedElement === 'dorian'
           }" style="min-width:100%; min-height: 25%; cursor: pointer;" @click="handleClick('dorian')">
-            <p class="my-font-style">Dorián</p>
+            <p class="">Dorián</p>
           </div>
 
           <div :class="{
             'container-fluid d-flex justify-content-center align-items-center p-5 my-element': true,
             'clicked': selectedElement === 'janos'
           }" style="min-width:100%; min-height: 25%; cursor: pointer;" @click="handleClick('janos')">
-            <p class="my-font-style">János</p>
+            <p class="">János</p>
           </div>
 
           <div :class="{
             'container-fluid d-flex justify-content-center align-items-center p-5 my-element': true,
             'clicked': selectedElement === 'krisztian'
           }" style="min-width:100%; min-height: 25%; cursor: pointer;" @click="handleClick('krisztian')">
-            <p class="my-font-style">Krisztián</p>
+            <p class="">Krisztián</p>
           </div>
         </div>
       </div>

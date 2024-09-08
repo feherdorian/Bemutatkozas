@@ -1,34 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-.my-font-style{
+
+
+.home-button{
+    font-size: xx-large;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
-.home-button{
-    font-size: xx-large;
-}
-
-.emberek-button{
-    cursor: pointer;
-    min-width: 100%;
-}
-
 .my-element {
-    border-top: 1px solid #ced4da;
-    border-bottom: 1px solid #ced4da;
     background-color: #ffffff;
-    padding: 10px;
 }
 
 .clicked {
     background-color: #ced4da;
+    
 }
 
 .my-element:hover {
     background-color: #ced4da;
     transition: background-color 0.3s ease-in-out;
-
 }
 
 .my-navbar{
@@ -41,9 +32,23 @@ body{
 
 .list-element{
     background-color: #ffffff88 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .my-offcanvas-header{
     background-color: #ced4da;
+    
+}
 
+.my-clock {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+.home-felirat{
+    font-family: 'Poppins', sans-serif;
 }
