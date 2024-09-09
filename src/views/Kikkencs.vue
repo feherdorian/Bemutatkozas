@@ -1,12 +1,13 @@
+<script setup>
+  import BemutatkozoKartya from '../components/BemutatkozoKartya.vue'
+</script>
+
 <template>
-  <h1>Kiki</h1>
+  <div>
+    <BemutatkozoKartya nev="Molnár Krisztián" kep="krisztian" bemutatkozas="Sok mindent szeretek, es sok mident nem GGWP tyfortutorial"/>
+  </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
 
 <style>
 

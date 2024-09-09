@@ -11,3 +11,4 @@
 <script setup>
 import BemutatkozoKartya from '../components/BemutatkozoKartya.vue'
 </script>
+
