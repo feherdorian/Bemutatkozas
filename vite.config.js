@@ -11,6 +11,10 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
+    },
+  },
+  build: {
+  outDir: './dist/Bemutatkozas',
+  },
+  base: process.env.NODE_ENV === 'development' ? '/' : '/Bemutatkozas/',
 })
