@@ -1,13 +1,13 @@
 <template>
-  <h1>Dorián</h1>
+ 
+  <div class="card-container">
+    <BemutatkozoKartya
+      nev="Fehér Zsolt Dorián (Hozé Luis Armani)"
+      kep="dorian"
+      bemutatkozas="Pókember akarok lenni, ha felnövök."
+    />
+  </div>
 </template>
-
-<script>
-export default {
-
-}
+<script setup>
+import BemutatkozoKartya from '../components/BemutatkozoKartya.vue'
 </script>
-
-<style>
-
-</style>
